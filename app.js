@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const User = require('./models/user');
 const Flight = require('./models/flight');
-const Booking = require('./models/Booking');
+const Booking = require('./models/booking');
 
 const app = express();
 
