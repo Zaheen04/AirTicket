@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const User = require('./models/user');
-const Flight = require('./models/Flight');
+const Flight = require('./models/flight');
 const Booking = require('./models/Booking');
 
 const app = express();
